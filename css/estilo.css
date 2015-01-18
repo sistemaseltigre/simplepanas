@@ -6,7 +6,7 @@ body
 {
 	background: #EEEEEE;
 	font-family: Arial;
-	font-size: 16px;
+	font-size: 18px;
 }
 footer
 {
@@ -42,14 +42,54 @@ header
 header figure
 {
 	float: left;
+   margin-top: auto;
 }
 header h1
 {
 	font-size: 1.2em;
 	font-weight: normal;
-	margin: 50px 70px 0 0;
+	margin: 50px 100px 0 300px;
 }
-
+header #registro 
+{
+    margin: 3em 1em 0 0;
+	position: absolute;
+	right: 0;
+	top: 0 
+}
+header #registro div a
+{
+	background: #FF4500;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-style: italic;
+	padding: 0.6em 0.8em;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
+header #iniciarS 
+{
+    margin: 5em 1em 0 0;
+	position: absolute;
+	right: 0;
+	top: 0 
+}
+header #logo
+{
+	border-right: 1px solid white;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+}
+nav
+{
+	background:  #5B8BCD; /* #80BCA3 */
+	position: relative;
+}
+av ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0 6em 0 .5em;
+}
 
 
 
