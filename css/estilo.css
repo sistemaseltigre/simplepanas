@@ -1,48 +1,12 @@
  font-family: 'open_sansregular';
-    src: url('fuentes/OpenSans-Regular-webfont.eot');
-    src: url('fuentes/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fuentes/OpenSans-Regular-webfont.woff') format('woff'),
-         url('fuentes/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('fuentes/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    src: url('../fuentes/OpenSans-Regular-webfont.eot');
+    src: url('../fuentes/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fuentes/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fuentes/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
-@font-face {
-	font-family: 'icomoon';
-	src:url('iconos/fonts/icomoon.eot?-8rs5gh');
-	src:url('iconos/fonts/icomoon.eot?#iefix-8rs5gh') format('embedded-opentype'),
-		url('iconos/fonts/icomoon.woff?-8rs5gh') format('woff'),
-		url('iconos/fonts/icomoon.ttf?-8rs5gh') format('truetype'),
-		url('iconos/fonts/icomoon.svg?-8rs5gh#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	 Better Font Rendering =========== 
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon-account-circle:before {
-	content: "\e600";
-}
-
-.icon-verified-user:before {
-	content: "\e601";
-}
-
-.icon-truck:before {
-	content: "\e602";
-}
 
 
 a
@@ -99,7 +63,7 @@ header h1
 	font-size: 3em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: normal;
-	margin: 40px 50px 0 200px;
+	margin: 40px 60px 0 200px;
 }
 header #registro 
 {
