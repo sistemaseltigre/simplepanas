@@ -134,12 +134,34 @@ header
     overflow: hidden;
     padding: 1.5em;
     position: relative;
+    margin-bottom: -24;
+    margin-top: -24
+
     
 }
 header figure
 {
 	float: left;
-   margin-top: auto;
+   margin-top: 10px;
+   margin-left: 70px;
+}
+/*hacer lineas verticales :D*/
+header #line 
+{
+
+float:left;
+border-left: 2px solid #F0FFFF; 
+width:1px;
+height:140px;
+}
+header #line2 
+{
+
+float:right;
+border-right: 2px solid #F0FFFF; 
+width:1px;
+height:140px;
+margin-right: 150px;
 }
 
 header h1
@@ -148,8 +170,9 @@ header h1
 	font-size: 3em;
     font-family: "open_sansregular";
 	font-weight: normal;
-	margin: 40px 60px 0 200px;
+	margin: 40px 60px 0 400px;
 }
+
 header #registro 
 {
     margin: 3em 1em 0 0;
@@ -257,6 +280,7 @@ h2 a{
 }
 #contenido .item .votacion .icon-flecha_arriba
 {
+
 	margin-left: 20px;
 	text-decoration: none;
 
@@ -267,11 +291,47 @@ h2 a{
 }
 #contenido .item .votacion .icon-corazon
 {
-	margin-left: 330px;
+	
+	float: right;
+	margin-right: 10px;
+	text-decoration: none;
 
 }
 
 
+@media screen and (min-width: 800px){
+
+	#contenido
+	{
+		overflow: hidden;
+        margin: 0 50px 0 0
+	}
+	#contenido .item 
+	{
+		width: 49%;
+		float: left;
+	}
+	#contenido .item:nth-child(odd){
+		margin-right: 2%;
+	}
+
+}
+
+@media screen and (min-width: 1000px){
+	aside
+	{
+		display: block;
+		float: right;
+		margin:1em;
+		width: 25%;
+	}
+	aside video
+	{
+		width: 100%;
+	}
+
+
+}
 
 
 
