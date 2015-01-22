@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fuentes/icomoon.eot?-8rs5gh');
-	src:url('fuentes/icomoon.eot?#iefix-8rs5gh') format('embedded-opentype'),
-		url('fuentes/icomoon.woff?-8rs5gh') format('woff'),
-		url('fuentes/icomoon.ttf?-8rs5gh') format('truetype'),
-		url('fuentes/icomoon.svg?-8rs5gh#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?-7u9zqw');
+	src:url('../fonts/icomoon.eot?#iefix-7u9zqw') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-7u9zqw') format('woff'),
+		url('../fonts/icomoon.ttf?-7u9zqw') format('truetype'),
+		url('../fonts/icomoon.svg?-7u9zqw#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,15 +23,24 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-account-circle:before {
-	content: "\e600";
+.icon-usuario:before {
+	content: "\e603";
 }
 
-.icon-verified-user:before {
+.icon-candado:before {
+	content: "\e604";
+}
+
+.icon-cuenta:before {
+	content: "\e600";
+    margin: 5px;
+}
+
+.icon-verificar:before {
 	content: "\e601";
 }
 
-.icon-truck:before {
+.icon-camion:before {
 	content: "\e602";
 }
 

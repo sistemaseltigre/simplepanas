@@ -1,19 +1,21 @@
- font-family: 'open_sansregular';
-    src: url('fuentes/OpenSans-Regular-webfont.eot');
-    src: url('fuentes/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fuentes/OpenSans-Regular-webfont.woff') format('woff'),
-         url('fuentes/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('fuentes/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fuentes/OpenSans-Regular-webfont.eot');
+    src: url('../fuentes/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fuentes/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fuentes/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
+}
 @font-face {
 	font-family: 'icomoon';
-	src:url('iconos/fonts/icomoon.eot?-8rs5gh');
-	src:url('iconos/fonts/icomoon.eot?#iefix-8rs5gh') format('embedded-opentype'),
-		url('iconos/fonts/icomoon.woff?-8rs5gh') format('woff'),
-		url('iconos/fonts/icomoon.ttf?-8rs5gh') format('truetype'),
-		url('iconos/fonts/icomoon.svg?-8rs5gh#icomoon') format('svg');
+	src:url('../fuentes/icomoon.eot?-7u9zqw');
+	src:url('../fuentes/icomoon.eot?#iefix-7u9zqw') format('embedded-opentype'),
+		url('../fuentes/icomoon.woff?-7u9zqw') format('woff'),
+		url('../fuentes/icomoon.ttf?-7u9zqw') format('truetype'),
+		url('../fuentes/icomoon.svg?-7u9zqw#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -27,22 +29,69 @@
 	text-transform: none;
 	line-height: 1;
 
-	 Better Font Rendering =========== 
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-m667pn');
+	src:url('../fonts/icomoon.eot?#iefix-m667pn') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-m667pn') format('woff'),
+		url('../fonts/icomoon.ttf?-m667pn') format('truetype'),
+		url('../fonts/icomoon.svg?-m667pn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-account-circle:before {
-	content: "\e600";
+.icon-flecha_arriba:before {
+	content: "\e605";
 }
 
-.icon-verified-user:before {
+.icon-flecha_abajo:before {
+	content: "\e606";
+}
+
+.icon-corazon:before {
+	content: "\e607";
+}
+
+.icon-usuario:before {
+	content: "\e603";
+}
+
+.icon-candado:before {
+	content: "\e604";
+}
+
+.icon-cuenta:before {
+	content: "\e600";
+    margin: 5px;
+}
+
+.icon-verificar:before {
 	content: "\e601";
 }
 
-.icon-truck:before {
+.icon-camion:before {
 	content: "\e602";
 }
+
+
 
 
 a
@@ -52,8 +101,8 @@ a
 body
 {
 	background: #EEEEEE;
-    font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+    font-family: 'open_sansregular', sans-serif;
+	font-size: 16px;
 }
 footer
 {
@@ -97,15 +146,16 @@ header h1
 {
     color:#22BCE0; 
 	font-size: 3em;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: "open_sansregular";
 	font-weight: normal;
-	margin: 40px 50px 0 200px;
+	margin: 40px 60px 0 200px;
 }
 header #registro 
 {
     margin: 3em 1em 0 0;
 	position: absolute;
     list-style: none;
+
 	right: 0;
 	top: 0; 
    
@@ -171,6 +221,54 @@ nav ul li a:hover{
     float: left;
     margin: -20 0 0 -120;
     
+}
+
+h2 {
+    margin: 10px;
+    
+}
+h2 a{
+    text-decoration: none;
+   text-emphasis-color: black;
+}
+
+#contenido
+{
+	margin: 1ef; 
+}
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
+}
+#contenido .item .autor_item
+{
+	color: #AAA;
+	margin-left: 20px
+}
+#contenido .item .datos_item .fecha_item
+{
+	color: #AAA;
+	float: right;
+	margin-right: 950px
+}
+#contenido .item .votacion .icon-flecha_arriba
+{
+	margin-left: 20px;
+	text-decoration: none;
+
+}
+#contenido .item .votacion .icon-flecha_abajo
+{
+	text-decoration: none;
+}
+#contenido .item .votacion .icon-corazon
+{
+	margin-left: 330px;
+
 }
 
 
