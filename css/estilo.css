@@ -167,10 +167,12 @@ margin-right: 150px;
 header h1
 {
     color:#22BCE0; 
+    float: center;
 	font-size: 3em;
     font-family: "open_sansregular";
 	font-weight: normal;
-	margin: 40px 60px 0 400px;
+	margin: 40px 10px 0 130px;
+    
 }
 
 header #registro 
@@ -182,6 +184,14 @@ header #registro
 	right: 0;
 	top: 0; 
    
+}
+header #iniciarS 
+{
+    margin: 6em 1em 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+    
 }
 header div a
 {
@@ -198,14 +208,7 @@ header div a
 header div a:hover{
 	box-shadow: 0 0 30px yellow;
 }
-header #iniciarS 
-{
-    margin: 6em 1em 0 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-    
-}
+
 
 nav
 {
@@ -255,16 +258,17 @@ h2 a{
    text-emphasis-color: black;
 }
 
-#contenido
-{
-	margin: 1ef; 
-}
+
 #contenido .item
 {
+    align-content: center;
 	background: white;
-	border-bottom: 3px solid #22BCE0;
+	border-bottom: 2px solid #22BCE0;
 	margin-bottom: 0.5em;
-	min-height: 50px;
+    margin-left: 5px;
+    
+	min-height: 100px;
+    
 	position: relative;
 }
 
@@ -298,7 +302,7 @@ h2 a{
 {
 	color: #AAA;
 	float: right;
-    margin-right: 100px;
+    margin-right: 250px;
     margin-top: -70px;
 	
 }
@@ -326,7 +330,7 @@ h2 a{
 {
 	
 	float: right;
-	margin-right: 130px;
+	margin-right: 280px;
     margin-top: -35px;
 	text-decoration: none;
 
@@ -340,57 +344,44 @@ h2 a{
     
 }
 
+aside  .twitter-timeline
+{
+    display: none;
+}
+
 @media screen and (min-width: 800px){
 
 	#contenido
 	{
 		overflow: hidden;
-        margin: 0 50px 0 0
+        margin: 0 5px 0 5px
 	}
 	#contenido .item 
 	{
-		width: 49%;
+		width: 100%;
 		float: left;
 	}
+/*
 	#contenido .item:nth-child(odd){
 		margin-right: 2%;
 	}
+*/
 
 }
-
-@media screen and (min-width: 1000px){
-	aside
-	{
-		display: block;
-		float: right;
-		margin:1em;
-		width: 25%;
-	}
-	aside video
-	{
-		width: 100%;
-	}
-
-
-}
-
-
 /*esto funciona para decirle a la pag que cuando este en 1000px me aparesca el video */
+
 @media screen and (min-width: 1000px){
-	aside
+	aside .twitter-timeline
 	{
 		display: block;
 		float: right;
 		margin:1em;
-		width: 25%;
+		width: 40%;
 	}
-	aside video
-	{
-		width: 100%;
-	}
+	
 
 
-}
+
 
 
 
