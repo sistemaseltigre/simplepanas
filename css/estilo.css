@@ -263,21 +263,51 @@ h2 a{
 {
 	background: white;
 	border-bottom: 3px solid #22BCE0;
-	margin-bottom: 3em;
-	min-height: 128px;
+	margin-bottom: 0.5em;
+	min-height: 50px;
 	position: relative;
 }
+
+#contenido .item .tag_item
+{
+    
+    float: left;
+   	background: #FF4500;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+   	font-style: italic;
+	padding: 0.3em 0.8em;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+    text-decoration: none;
+    margin-top: -70px;
+    margin-left: 40px;
+}
+
 #contenido .item .autor_item
 {
 	color: #AAA;
-	margin-left: 20px
+	margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
 }
+
+
+
 #contenido .item .datos_item .fecha_item
 {
 	color: #AAA;
 	float: right;
-	margin-right: 950px
+    margin-right: 100px;
+    margin-top: -70px;
+	
 }
+/*#contenido .item .votacion
+{
+    margin-left: 30px;
+    
+}
+
 #contenido .item .votacion .icon-flecha_arriba
 {
 
@@ -285,19 +315,30 @@ h2 a{
 	text-decoration: none;
 
 }
+
 #contenido .item .votacion .icon-flecha_abajo
 {
 	text-decoration: none;
+    
 }
+*/
 #contenido .item .votacion .icon-corazon
 {
 	
 	float: right;
-	margin-right: 10px;
+	margin-right: 130px;
+    margin-top: -35px;
 	text-decoration: none;
 
 }
 
+
+#contenido object
+{
+    align-content: center;
+    margin-left: 40px;
+    
+}
 
 @media screen and (min-width: 800px){
 
@@ -334,7 +375,22 @@ h2 a{
 }
 
 
+/*esto funciona para decirle a la pag que cuando este en 1000px me aparesca el video */
+@media screen and (min-width: 1000px){
+	aside
+	{
+		display: block;
+		float: right;
+		margin:1em;
+		width: 25%;
+	}
+	aside video
+	{
+		width: 100%;
+	}
 
+
+}
 
 
 
